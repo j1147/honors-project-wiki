@@ -9,7 +9,7 @@ export default defineConfig({
     site: 'https://j1147.github.io',
 	base: '/honors-project-wiki',
     integrations: [starlight({
-        title: 'rTS Wiki',
+        title: 'Save the Tower Wiki',
         /*favicon: '/favicon.ico',
         logo: {
             src: './src/assets/favicon.webp',
