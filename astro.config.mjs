@@ -9,10 +9,10 @@ export default defineConfig({
     site: 'https://rtech.support',
     integrations: [starlight({
         title: 'rTS Wiki',
-        favicon: '/favicon.ico',
+        /*favicon: '/favicon.ico',
         logo: {
             src: './src/assets/favicon.webp',
-        },
+        },*/
         components: {
             Header: './src/components/customHeader.astro',
             PageFrame: './src/components/customPageFrame.astro',
@@ -31,64 +31,39 @@ export default defineConfig({
                 collapsed: true,
             },
             {
-                label: 'Software We Recommend',
-                autogenerate: { directory: 'recommendations' },
+                label: 'Shard #1',
+                autogenerate: { directory: 'shardone' },
                 collapsed: true,
             },
             {
-                label: 'OS Install Guides',
-                autogenerate: { directory: 'installations' },
+				label: 'Shard #2',
+                autogenerate: { directory: 'shardtwo' },
                 collapsed: true,
-            },
-            {
-                label: 'General Guides',
-                autogenerate: { directory: 'guides' },
-                collapsed: true,
-            },
-            {
-                label: 'Learning',
-                autogenerate: { directory: 'learning' },
-                collapsed: true,
-            },
-            {
-                label: 'Safety & Security',
-                autogenerate: { directory: 'safety-security' },
-                collapsed: true,
-            },
-            {
-                label: 'Backups',
-                autogenerate: { directory: 'backups' },
-                collapsed: true,
-            },
-            {
-                label: 'Networking',
-                autogenerate: { directory: 'networking' },
-                collapsed: true,
-            },
-            {
-                label: 'Disks',
-                autogenerate: { directory: 'disks' },
-                collapsed: true,
-            },
-            {
-                label: 'Live Sessions',
-                autogenerate: { directory: 'live-sessions' },
-                collapsed: true,
-            },
-            {
-                label: 'Factoids',
-                autogenerate: { directory: 'factoids' },
-                collapsed: true,
-            },
+			},
+			{
+				label: 'Shard #3',
+				autogenerate: { directory: 'shardthree' },
+				collapsed: true,
+			},
+			{
+				label: 'Shard #4',
+				autogenerate: { directory: 'shardfour' },
+				collapsed: true,
+			},
+			{
+				label: 'Shard #5',
+				autogenerate: { directory: 'shardfive' },
+				collapsed: true,
+			},
         ],
-        social: [
+        /*social: [
             { icon: 'github', label: 'GitHub', href: 'https://github.com/r-techsupport/rts_wiki'},
             { icon: 'discord', label: 'Discord', href: 'https://rtech.support/discord'},
             { icon: 'reddit', label: 'Reddit', href: 'https://reddit.com/r/techsupport'},
         ],
         editLink: {
             baseUrl: 'https://github.com/r-techsupport/rts_wiki/edit/master/',
-        },
+        },*/
         plugins: [
             starlightLinksValidator({
                 errorOnLocalLinks: false,
@@ -112,7 +87,7 @@ export default defineConfig({
             }] 
         ],
     },
-    redirects: {
+    /*redirects: {
         "/docs/[...slug].html": "/[...slug]",
         "/docs/[...slug]": "/[...slug]",
         "/rules": "/meta/rules",
@@ -148,5 +123,5 @@ export default defineConfig({
         "/books/troubleshooting-with-a-live-session/chapter/windows-pe": "/live-sessions/windows-live-session",
         "/guides/intel-rst": "/guides/raid_drivers",
         "/windows": "/installations/install-11"
-    },
+    },*/
 })
