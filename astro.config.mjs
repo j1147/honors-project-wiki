@@ -6,7 +6,7 @@ import starlightLinksValidator from 'starlight-links-validator';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://j1147.github.io/honors-project-wiki',
+    site: 'https://j1147.github.io',
     integrations: [starlight({
         title: 'rTS Wiki',
         /*favicon: '/favicon.ico',
