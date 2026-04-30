@@ -32,28 +32,38 @@ export default defineConfig({
                 collapsed: true,
             },
             {
-                label: 'Shard #1',
+                label: 'Strafe Shard',
                 autogenerate: { directory: 'shardone' },
                 collapsed: true,
             },
             {
-				label: 'Shard #2',
+				label: 'Lunge Shard',
                 autogenerate: { directory: 'shardtwo' },
                 collapsed: true,
 			},
 			{
-				label: 'Shard #3',
+				label: 'Dodge Shard',
 				autogenerate: { directory: 'shardthree' },
 				collapsed: true,
 			},
 			{
-				label: 'Shard #4',
+				label: 'Hoist Shard',
 				autogenerate: { directory: 'shardfour' },
 				collapsed: true,
 			},
 			{
-				label: 'Shard #5',
+				label: 'Race Shard',
 				autogenerate: { directory: 'shardfive' },
+				collapsed: true,
+			},
+			{
+				label: 'NPCs',
+				autogenerate: { directory: 'npcs' },
+				collapsed: true,
+			},
+			{
+				label: 'Collectibles',
+				autogenerate: { directory: 'collectibles' },
 				collapsed: true,
 			},
         ],
