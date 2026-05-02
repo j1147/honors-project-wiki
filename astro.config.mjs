@@ -42,8 +42,8 @@ export default defineConfig({
 				collapsed: true,
 			},
 			{
-				label: 'Collectibles',
-				autogenerate: { directory: 'collectibles' },
+				label: 'Characters',
+				autogenerate: { directory: 'characters' },
 				collapsed: true,
 			},
         ],
