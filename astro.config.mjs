@@ -7,7 +7,7 @@ import starlightLinksValidator from 'starlight-links-validator';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://j1147.github.io',
-	//base: '/honors-project-wiki',
+	base: '/honors-project-wiki',
     integrations: [starlight({
         title: 'Save the Tower Wiki',
         /*favicon: '/favicon.ico',
