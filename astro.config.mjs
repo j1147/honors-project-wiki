@@ -37,8 +37,8 @@ export default defineConfig({
                 collapsed: true,
             },
 			{
-				label: 'NPCs',
-				autogenerate: { directory: 'npcs' },
+				label: 'Collectibles',
+				autogenerate: { directory: 'Collectibles' },
 				collapsed: true,
 			},
 			{
