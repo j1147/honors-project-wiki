@@ -27,7 +27,7 @@ export default defineConfig({
         ],
         sidebar: [
             {
-                label: 'Information',
+                label: 'General',
                 autogenerate: { directory: 'meta' },
                 collapsed: true,
             },
